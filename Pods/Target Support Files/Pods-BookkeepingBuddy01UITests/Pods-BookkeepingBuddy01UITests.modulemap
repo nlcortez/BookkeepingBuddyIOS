@@ -1,0 +1,6 @@
+framework module Pods_BookkeepingBuddy01UITests {
+  umbrella header "Pods-BookkeepingBuddy01UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
