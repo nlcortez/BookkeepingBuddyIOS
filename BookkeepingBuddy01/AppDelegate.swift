@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var databaseRef : DatabaseReference?
     var materialCategories: [String: MaterialCategory] = [:]
     var materialTemplates : [String: MaterialTemplate] = [:]
-
+    var materials : [String: Material] = [:]
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -27,8 +27,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //initialize material categories
         initMaterialCategoriesData()
         initMaterialTemplatesData()
+        initMaterialsData()
         
         return true
+    }
+
+    func initMaterialsData() {
+        databaseRef!.child("Materials").observeSingleEvent(of: .value, with: { snapshot in
+            
+            var newMaterials : [String: Material] = [:]
+            
+            for item in snapshot.children {
+                let curItem = item as! DataSnapshot
+                newMaterials[curItem.key] = Material(snapshot: curItem)
+                print("adding!")
+            }
+            self.materials = newMaterials
+        }) { (error) in
+            print(error.localizedDescription)
+        }
     }
     
     func initMaterialTemplatesData() {

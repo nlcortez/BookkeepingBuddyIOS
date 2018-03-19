@@ -70,7 +70,11 @@ class MaterialAddVC: UIViewController {
             databaseRef.child("MaterialTemplates").child(key).setValue(template)
             break;
         case 2:
-            print("this is for adding materials to db")
+            let key = databaseRef.child("Materials").childByAutoId().key
+            let material = Material(id: key,
+                                    template: (addMaterialVC?.template)!,
+                                    attribute: (addMaterialVC?.attribute.text)!).toAnyObject()
+            databaseRef.child("Materials").child(key).setValue(material)
             break;
         default:
             break;

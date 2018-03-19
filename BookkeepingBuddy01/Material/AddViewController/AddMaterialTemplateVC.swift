@@ -11,8 +11,6 @@ import Firebase
 import Foundation
 class AddMaterialTemplateVC : UITableViewController {
     
-    //should be a picker??
-    
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var quantity: UITextField!
     @IBOutlet weak var cost: UITextField!

@@ -44,18 +44,6 @@ class MaterialTemplate : Codable {
         measured_quantity = snapvalues["measured_quantity"] as! Int
         cost = snapvalues["cost"] as! Double
     }
-
-    func retrieveCategory(categoryName: String) -> MaterialCategory {
-        let databaseRef : DatabaseReference = Database.database().reference()
-        var category : MaterialCategory? = nil
-        let query = databaseRef.queryOrdered(byChild: "MaterialCategories").queryEqual(toValue: categoryName)
-        query.observeSingleEvent(of: .value) { snapshot in
-            for item in snapshot.children {
-                category = MaterialCategory(snapshot: item as! DataSnapshot)
-            }
-        }
-        return category!
-    }
     
     func toAnyObject() -> Any {
         return [

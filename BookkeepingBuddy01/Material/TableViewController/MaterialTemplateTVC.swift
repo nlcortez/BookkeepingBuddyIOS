@@ -70,6 +70,19 @@ class MaterialTemplateTVC : UITableViewController {
         return (cell)!
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let destination = segue.destination
+        if (segue.identifier == "unwindToAddMaterial") {
+            let destVC = destination as? AddMaterialVC
+            let template = [MaterialTemplate](appDelegate.materialTemplates.values)[(self.tableView.indexPathForSelectedRow?.row)!]
+            destVC?.template = template
+            destVC?.quantityMeasured.text = String(template.measured_quantity) + " " + template.category.unit
+            destVC?.quantityRemaining.text = String(template.measured_quantity) + " " + template.category.unit
+            destVC?.listLabel.text = template.name
+            print("template name is " + template.name)
+        }
+    }
     
 }
 

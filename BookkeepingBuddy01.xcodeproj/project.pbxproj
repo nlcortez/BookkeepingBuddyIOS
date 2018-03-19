@@ -12,6 +12,8 @@
 		9D309593205F198100687E34 /* AddMaterialCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D309592205F198100687E34 /* AddMaterialCategoryVC.swift */; };
 		9D309595205F2A7F00687E34 /* AddMaterialTemplateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D309594205F2A7F00687E34 /* AddMaterialTemplateVC.swift */; };
 		9D309597205F2A8F00687E34 /* AddMaterialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D309596205F2A8F00687E34 /* AddMaterialVC.swift */; };
+		9D30959C205F830700687E34 /* MaterialInventoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D30959B205F830700687E34 /* MaterialInventoryTVC.swift */; };
+		9D30959E205F873C00687E34 /* MaterialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D30959D205F873C00687E34 /* MaterialCell.swift */; };
 		9D734F80204F626A00AB67BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D734F7F204F626A00AB67BE /* GoogleService-Info.plist */; };
 		9D734F82204F62B700AB67BE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D734F81204F62B700AB67BE /* Podfile */; };
 		9D734F872050D5DC00AB67BE /* MaterialTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D734F862050D5DC00AB67BE /* MaterialTemplate.swift */; };
@@ -60,6 +62,8 @@
 		9D309592205F198100687E34 /* AddMaterialCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMaterialCategoryVC.swift; sourceTree = "<group>"; };
 		9D309594205F2A7F00687E34 /* AddMaterialTemplateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMaterialTemplateVC.swift; sourceTree = "<group>"; };
 		9D309596205F2A8F00687E34 /* AddMaterialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMaterialVC.swift; sourceTree = "<group>"; };
+		9D30959B205F830700687E34 /* MaterialInventoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialInventoryTVC.swift; sourceTree = "<group>"; };
+		9D30959D205F873C00687E34 /* MaterialCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCell.swift; sourceTree = "<group>"; };
 		9D734F7F204F626A00AB67BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9D734F81204F62B700AB67BE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D734F862050D5DC00AB67BE /* MaterialTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialTemplate.swift; sourceTree = "<group>"; };
@@ -158,6 +162,7 @@
 			children = (
 				9D734F902050FFEA00AB67BE /* MaterialCategoryCell.swift */,
 				9D734F922051116400AB67BE /* MaterialTemplateCell.swift */,
+				9D30959D205F873C00687E34 /* MaterialCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 			children = (
 				9D734F8E2050F7D200AB67BE /* MaterialCategoryTVC.swift */,
 				9D734F942051126900AB67BE /* MaterialTemplateTVC.swift */,
+				9D30959B205F830700687E34 /* MaterialInventoryTVC.swift */,
 			);
 			path = TableViewController;
 			sourceTree = "<group>";
@@ -573,7 +579,9 @@
 				9D734F8F2050F7D200AB67BE /* MaterialCategoryTVC.swift in Sources */,
 				9D734F912050FFEA00AB67BE /* MaterialCategoryCell.swift in Sources */,
 				9D930FFE20240BAA0014ED29 /* AppDelegate.swift in Sources */,
+				9D30959E205F873C00687E34 /* MaterialCell.swift in Sources */,
 				9D734F952051126900AB67BE /* MaterialTemplateTVC.swift in Sources */,
+				9D30959C205F830700687E34 /* MaterialInventoryTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

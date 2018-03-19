@@ -11,12 +11,19 @@ import Firebase
 import Foundation
 class AddMaterialVC : UITableViewController {
     //template picker
-    //@IBOutlet weak var attribute: UITextField!
-    //@IBOutlet weak var quantityMeasured: UITextField!
-    //@IBOutlet weak var quantityRemaining: UITextField!
+    @IBOutlet weak var attribute: UITextField!
+    @IBOutlet weak var listLabel: UILabel!
+    @IBOutlet weak var quantityMeasured: UILabel!
+    @IBOutlet weak var quantityRemaining: UILabel!
     //image picker
+
+    var template: MaterialTemplate?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    @IBAction func unwindToAddMaterial(_ segue: UIStoryboardSegue) {
     }
 }

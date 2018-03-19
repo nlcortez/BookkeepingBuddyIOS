@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Material/TableViewController/MaterialCategoryTVC.swift"
-            timestampString = "543121932.800055"
+            timestampString = "543138327.613264"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Material/TableViewController/MaterialTemplateTVC.swift"
-            timestampString = "543121932.8005691"
+            timestampString = "543138327.6144921"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Material/ViewController/MaterialAddVC.swift"
-            timestampString = "543121932.8010629"
+            timestampString = "543138327.61724"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "53"
@@ -106,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Material/ViewController/MaterialAddVC.swift"
-            timestampString = "543121932.803738"
+            timestampString = "543138327.620463"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -122,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Material/ViewController/MaterialAddVC.swift"
-            timestampString = "543121932.806072"
+            timestampString = "543138327.622005"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "57"
@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Material/ViewController/MaterialAddVC.swift"
-            timestampString = "543121932.807549"
+            timestampString = "543138327.6233881"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -186,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Material/ViewController/MaterialAddVC.swift"
-            timestampString = "543121932.808405"
+            timestampString = "543138327.625381"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "57"
@@ -234,7 +234,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Material/ViewController/MaterialAddVC.swift"
-            timestampString = "543121932.808973"
+            timestampString = "543138327.627098"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "60"
@@ -250,11 +250,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/AppDelegate.swift"
-            timestampString = "543121932.809531"
+            timestampString = "543138327.628899"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
             landmarkName = "initMaterialCategoriesData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -266,11 +266,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/AppDelegate.swift"
-            timestampString = "543121932.810231"
+            timestampString = "543138327.630444"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
             landmarkName = "initMaterialCategoriesData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -282,27 +282,59 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/AppDelegate.swift"
-            timestampString = "543121932.810559"
+            timestampString = "543138327.6321419"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "initMaterialCategoriesData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BookkeepingBuddy01/AppDelegate.swift"
+            timestampString = "543138327.633886"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "initMaterialTemplatesData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BookkeepingBuddy01/AppDelegate.swift"
+            timestampString = "543138327.634951"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "initMaterialTemplatesData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BookkeepingBuddy01/AppDelegate.swift"
+            timestampString = "543138327.635968"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "58"
             endingLineNumber = "58"
-            landmarkName = "initMaterialCategoriesData()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BookkeepingBuddy01/AppDelegate.swift"
-            timestampString = "543121932.81085"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
             landmarkName = "initMaterialTemplatesData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -314,43 +346,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/AppDelegate.swift"
-            timestampString = "543121932.8112119"
+            timestampString = "543138327.63677"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "initMaterialTemplatesData()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BookkeepingBuddy01/AppDelegate.swift"
-            timestampString = "543121932.811499"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "initMaterialTemplatesData()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BookkeepingBuddy01/AppDelegate.swift"
-            timestampString = "543121932.811776"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "initMaterialTemplatesData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -362,7 +362,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Models/MaterialCategory.swift"
-            timestampString = "543121932.812059"
+            timestampString = "543138327.6378061"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
@@ -410,7 +410,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Models/MaterialCategory.swift"
-            timestampString = "543121932.812422"
+            timestampString = "543138327.6386451"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -426,7 +426,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Models/MaterialCategory.swift"
-            timestampString = "543121932.812572"
+            timestampString = "543138327.6390899"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
@@ -442,7 +442,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Models/MaterialCategory.swift"
-            timestampString = "543121932.812677"
+            timestampString = "543138327.6395169"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
@@ -458,11 +458,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/AppDelegate.swift"
-            timestampString = "543121932.812764"
+            timestampString = "543138327.63989"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "initMaterialCategoriesData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -474,11 +474,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Material/ViewController/MaterialAddVC.swift"
-            timestampString = "543121932.813104"
+            timestampString = "543138327.640968"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -490,11 +490,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Material/ViewController/MaterialAddVC.swift"
-            timestampString = "543121932.8137029"
+            timestampString = "543138327.642725"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -506,11 +506,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Material/ViewController/MaterialAddVC.swift"
-            timestampString = "543121932.814399"
+            timestampString = "543138327.645234"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -522,7 +522,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Material/ViewController/MaterialAddVC.swift"
-            timestampString = "543121932.8149"
+            timestampString = "543138327.6473269"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
@@ -538,7 +538,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Material/TableViewController/MaterialCategoryTVC.swift"
-            timestampString = "543121932.8154"
+            timestampString = "543138327.648702"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
@@ -554,7 +554,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Material/TableViewController/MaterialCategoryTVC.swift"
-            timestampString = "543121932.815468"
+            timestampString = "543138327.649007"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
@@ -570,11 +570,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookkeepingBuddy01/Material/TableViewController/MaterialCategoryTVC.swift"
-            timestampString = "543121932.815529"
+            timestampString = "543138327.6495349"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BookkeepingBuddy01/Material/TableViewController/MaterialCategoryTVC.swift"
+            timestampString = "543138327.649802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BookkeepingBuddy01/Material/TableViewController/MaterialTemplateTVC.swift"
+            timestampString = "543138327.6500649"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
             <Locations>
@@ -582,31 +614,31 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "BookkeepingBuddy01.MaterialCategoryTVC.prepare(for: __ObjC.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  symbolName = "BookkeepingBuddy01.MaterialTemplateTVC.prepare(for: __ObjC.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
                   moduleName = "BookkeepingBuddy01"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nlcortez/Documents/SchoolWork/2017-2018/Winter2018/CSC436/Project/BookkeepingBuddy01/BookkeepingBuddy01/Material/TableViewController/MaterialCategoryTVC.swift"
-                  timestampString = "543120711.098841"
+                  urlString = "file:///Users/nlcortez/Documents/SchoolWork/2017-2018/Winter2018/CSC436/Project/BookkeepingBuddy01/BookkeepingBuddy01/Material/TableViewController/MaterialTemplateTVC.swift"
+                  timestampString = "543136324.730207"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "66"
-                  endingLineNumber = "66"
-                  offsetFromSymbolStart = "556">
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "444">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "BookkeepingBuddy01.MaterialCategoryTVC.prepare(for: __ObjC.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  symbolName = "BookkeepingBuddy01.MaterialTemplateTVC.prepare(for: __ObjC.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
                   moduleName = "BookkeepingBuddy01"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nlcortez/Documents/SchoolWork/2017-2018/Winter2018/CSC436/Project/BookkeepingBuddy01/BookkeepingBuddy01/Material/TableViewController/MaterialCategoryTVC.swift"
-                  timestampString = "543120711.102121"
+                  urlString = "file:///Users/nlcortez/Documents/SchoolWork/2017-2018/Winter2018/CSC436/Project/BookkeepingBuddy01/BookkeepingBuddy01/Material/TableViewController/MaterialTemplateTVC.swift"
+                  timestampString = "543136324.7347749"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "66"
-                  endingLineNumber = "66"
-                  offsetFromSymbolStart = "3317">
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "2696">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -617,12 +649,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BookkeepingBuddy01/Material/TableViewController/MaterialCategoryTVC.swift"
-            timestampString = "543121932.815575"
+            filePath = "BookkeepingBuddy01/Material/TableViewController/MaterialTemplateTVC.swift"
+            timestampString = "543138327.650805"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -633,13 +665,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BookkeepingBuddy01/Material/TableViewController/MaterialCategoryTVC.swift"
-            timestampString = "543121932.815619"
+            filePath = "BookkeepingBuddy01/Material/TableViewController/MaterialTemplateTVC.swift"
+            timestampString = "543138327.651615"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
             landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BookkeepingBuddy01/Material/AddViewController/AddMaterialCategoryVC.swift"
+            timestampString = "543138327.652526"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
