@@ -6,7 +6,7 @@
 //  Copyright © 2018 Natasha Cortez. All rights reserved.
 //
 
-import Foundation
+import FirebaseDatabase
 
 class MaterialTemplate : Codable {
     
@@ -27,6 +27,36 @@ class MaterialTemplate : Codable {
         self.name = name
         self.measured_quantity = measured_quantity
         self.cost = cost
+    }
+    
+    init(snapshot: DataSnapshot) {
+        let snapvalues = snapshot.value as! [String : AnyObject]
+        
+        let databaseRef : DatabaseReference = Database.database().reference()
+        var newCategory : MaterialCategory? = MaterialCategory(name: snapvalues["category"] as! String, unit:"")
+        let query = databaseRef.queryOrdered(byChild: "MaterialCategories").queryEqual(toValue: snapvalues["category"] as! String)
+        query.observeSingleEvent(of: .value) { snapshot in
+            for item in snapshot.children {
+                newCategory = MaterialCategory(snapshot: item as! DataSnapshot)
+            }
+        }
+        newCategory = MaterialCategory(name: snapvalues["category"] as! String, unit:"")
+        category = newCategory!
+        name = snapvalues["name"] as! String
+        measured_quantity = snapvalues["measured_quantity"] as! Int
+        cost = snapvalues["cost"] as! Double
+    }
+
+    func retrieveCategory(categoryName: String) -> MaterialCategory {
+        let databaseRef : DatabaseReference = Database.database().reference()
+        var category : MaterialCategory? = nil
+        let query = databaseRef.queryOrdered(byChild: "MaterialCategories").queryEqual(toValue: categoryName)
+        query.observeSingleEvent(of: .value) { snapshot in
+            for item in snapshot.children {
+                category = MaterialCategory(snapshot: item as! DataSnapshot)
+            }
+        }
+        return category!
     }
     
     func toAnyObject() -> Any {

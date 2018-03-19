@@ -16,7 +16,8 @@ class MaterialTabViewController : UIViewController {
     @IBOutlet weak var categoryView: UIView!
     @IBOutlet weak var templateView: UIView!
     @IBOutlet weak var inventoryView: UIView!
-    
+    @IBOutlet weak var addButton: UIBarButtonItem!
+
     var databaseRef : DatabaseReference?
     
     override func viewDidLoad() {
@@ -52,6 +53,24 @@ class MaterialTabViewController : UIViewController {
         default:
             break;
         }
+    }
+
+    @IBAction func cancelToMaterialTabViewController(_ segue: UIStoryboardSegue) {
+    }
+    
+    @IBAction func saveMaterial(_ segue: UIStoryboardSegue) {
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
+        let destination = segue.destination
+        if (segue.identifier == "addMaterialSegue") {
+            let destVC = destination as? MaterialAddVC
+            //let mat = Material(color: colorTextField.text!, name: nameTextField.text!, amount: Int(amountTextField.text!)!, unit: unitTextField.text!)
+            
+            //destVC?.insertNewMaterial(newMaterial: mat)
+        }
+        
     }
     
     override func didReceiveMemoryWarning() {

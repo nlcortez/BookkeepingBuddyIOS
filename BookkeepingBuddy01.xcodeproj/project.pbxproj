@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9CE17C9A1727EC32F4197C37 /* Pods_BookkeepingBuddy01UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F844D69522F2CD00535C882B /* Pods_BookkeepingBuddy01UITests.framework */; };
+		9D30958B205E5B8100687E34 /* MaterialAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D30958A205E5B8100687E34 /* MaterialAddVC.swift */; };
+		9D309593205F198100687E34 /* AddMaterialCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D309592205F198100687E34 /* AddMaterialCategoryVC.swift */; };
+		9D309595205F2A7F00687E34 /* AddMaterialTemplateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D309594205F2A7F00687E34 /* AddMaterialTemplateVC.swift */; };
+		9D309597205F2A8F00687E34 /* AddMaterialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D309596205F2A8F00687E34 /* AddMaterialVC.swift */; };
 		9D734F80204F626A00AB67BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D734F7F204F626A00AB67BE /* GoogleService-Info.plist */; };
 		9D734F82204F62B700AB67BE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D734F81204F62B700AB67BE /* Podfile */; };
 		9D734F872050D5DC00AB67BE /* MaterialTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D734F862050D5DC00AB67BE /* MaterialTemplate.swift */; };
@@ -15,6 +19,9 @@
 		9D734F8B2050E86B00AB67BE /* MaterialTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D734F8A2050E86B00AB67BE /* MaterialTabViewController.swift */; };
 		9D734F8D2050F39000AB67BE /* MaterialOverviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D734F8C2050F39000AB67BE /* MaterialOverviewVC.swift */; };
 		9D734F8F2050F7D200AB67BE /* MaterialCategoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D734F8E2050F7D200AB67BE /* MaterialCategoryTVC.swift */; };
+		9D734F912050FFEA00AB67BE /* MaterialCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D734F902050FFEA00AB67BE /* MaterialCategoryCell.swift */; };
+		9D734F932051116400AB67BE /* MaterialTemplateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D734F922051116400AB67BE /* MaterialTemplateCell.swift */; };
+		9D734F952051126900AB67BE /* MaterialTemplateTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D734F942051126900AB67BE /* MaterialTemplateTVC.swift */; };
 		9D930FFE20240BAA0014ED29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D930FFD20240BAA0014ED29 /* AppDelegate.swift */; };
 		9D93100020240BAA0014ED29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D930FFF20240BAA0014ED29 /* ViewController.swift */; };
 		9D93100320240BAA0014ED29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D93100120240BAA0014ED29 /* Main.storyboard */; };
@@ -49,6 +56,10 @@
 		2DD2FB6EBAF4106D2E7987E7 /* Pods-BookkeepingBuddy01UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookkeepingBuddy01UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookkeepingBuddy01UITests/Pods-BookkeepingBuddy01UITests.release.xcconfig"; sourceTree = "<group>"; };
 		3933100AD6B033A5775894F9 /* Pods_BookkeepingBuddy01Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookkeepingBuddy01Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5431C8A2C16701E43639E540 /* Pods-BookkeepingBuddy01UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookkeepingBuddy01UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookkeepingBuddy01UITests/Pods-BookkeepingBuddy01UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D30958A205E5B8100687E34 /* MaterialAddVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialAddVC.swift; sourceTree = "<group>"; };
+		9D309592205F198100687E34 /* AddMaterialCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMaterialCategoryVC.swift; sourceTree = "<group>"; };
+		9D309594205F2A7F00687E34 /* AddMaterialTemplateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMaterialTemplateVC.swift; sourceTree = "<group>"; };
+		9D309596205F2A8F00687E34 /* AddMaterialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMaterialVC.swift; sourceTree = "<group>"; };
 		9D734F7F204F626A00AB67BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9D734F81204F62B700AB67BE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D734F862050D5DC00AB67BE /* MaterialTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialTemplate.swift; sourceTree = "<group>"; };
@@ -56,6 +67,9 @@
 		9D734F8A2050E86B00AB67BE /* MaterialTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialTabViewController.swift; sourceTree = "<group>"; };
 		9D734F8C2050F39000AB67BE /* MaterialOverviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialOverviewVC.swift; sourceTree = "<group>"; };
 		9D734F8E2050F7D200AB67BE /* MaterialCategoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCategoryTVC.swift; sourceTree = "<group>"; };
+		9D734F902050FFEA00AB67BE /* MaterialCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCategoryCell.swift; sourceTree = "<group>"; };
+		9D734F922051116400AB67BE /* MaterialTemplateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialTemplateCell.swift; sourceTree = "<group>"; };
+		9D734F942051126900AB67BE /* MaterialTemplateTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialTemplateTVC.swift; sourceTree = "<group>"; };
 		9D930FFA20240BAA0014ED29 /* BookkeepingBuddy01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookkeepingBuddy01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D930FFD20240BAA0014ED29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D930FFF20240BAA0014ED29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +132,55 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9D30958C205E685500687E34 /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				9D309591205F18D700687E34 /* AddViewController */,
+				9D309590205E68B800687E34 /* TableViewController */,
+				9D30958F205E68A100687E34 /* Cell */,
+				9D30958E205E689800687E34 /* ViewController */,
+			);
+			path = Material;
+			sourceTree = "<group>";
+		};
+		9D30958E205E689800687E34 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9D734F8A2050E86B00AB67BE /* MaterialTabViewController.swift */,
+				9D734F8C2050F39000AB67BE /* MaterialOverviewVC.swift */,
+				9D30958A205E5B8100687E34 /* MaterialAddVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9D30958F205E68A100687E34 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9D734F902050FFEA00AB67BE /* MaterialCategoryCell.swift */,
+				9D734F922051116400AB67BE /* MaterialTemplateCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9D309590205E68B800687E34 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9D734F8E2050F7D200AB67BE /* MaterialCategoryTVC.swift */,
+				9D734F942051126900AB67BE /* MaterialTemplateTVC.swift */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		9D309591205F18D700687E34 /* AddViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9D309592205F198100687E34 /* AddMaterialCategoryVC.swift */,
+				9D309594205F2A7F00687E34 /* AddMaterialTemplateVC.swift */,
+				9D309596205F2A8F00687E34 /* AddMaterialVC.swift */,
+			);
+			path = AddViewController;
+			sourceTree = "<group>";
+		};
 		9D734F852050D59700AB67BE /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +217,7 @@
 		9D930FFC20240BAA0014ED29 /* BookkeepingBuddy01 */ = {
 			isa = PBXGroup;
 			children = (
+				9D30958C205E685500687E34 /* Material */,
 				9D734F852050D59700AB67BE /* Models */,
 				9D734F7F204F626A00AB67BE /* GoogleService-Info.plist */,
 				9D930FFD20240BAA0014ED29 /* AppDelegate.swift */,
@@ -162,9 +226,6 @@
 				9D93100420240BAA0014ED29 /* Assets.xcassets */,
 				9D93100620240BAA0014ED29 /* LaunchScreen.storyboard */,
 				9D93100920240BAA0014ED29 /* Info.plist */,
-				9D734F8A2050E86B00AB67BE /* MaterialTabViewController.swift */,
-				9D734F8C2050F39000AB67BE /* MaterialOverviewVC.swift */,
-				9D734F8E2050F7D200AB67BE /* MaterialCategoryTVC.swift */,
 			);
 			path = BookkeepingBuddy01;
 			sourceTree = "<group>";
@@ -500,12 +561,19 @@
 			files = (
 				9D734F892050D76400AB67BE /* Material.swift in Sources */,
 				9D734F872050D5DC00AB67BE /* MaterialTemplate.swift in Sources */,
+				9D309593205F198100687E34 /* AddMaterialCategoryVC.swift in Sources */,
+				9D309597205F2A8F00687E34 /* AddMaterialVC.swift in Sources */,
 				9D93100020240BAA0014ED29 /* ViewController.swift in Sources */,
 				9D734F8B2050E86B00AB67BE /* MaterialTabViewController.swift in Sources */,
+				9D734F932051116400AB67BE /* MaterialTemplateCell.swift in Sources */,
 				9D734F8D2050F39000AB67BE /* MaterialOverviewVC.swift in Sources */,
+				9D309595205F2A7F00687E34 /* AddMaterialTemplateVC.swift in Sources */,
 				9D93102C20240BC10014ED29 /* MaterialCategory.swift in Sources */,
+				9D30958B205E5B8100687E34 /* MaterialAddVC.swift in Sources */,
 				9D734F8F2050F7D200AB67BE /* MaterialCategoryTVC.swift in Sources */,
+				9D734F912050FFEA00AB67BE /* MaterialCategoryCell.swift in Sources */,
 				9D930FFE20240BAA0014ED29 /* AppDelegate.swift in Sources */,
+				9D734F952051126900AB67BE /* MaterialTemplateTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,7 +741,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LZNXN6LWQ;
 				INFOPLIST_FILE = BookkeepingBuddy01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = csc436.BookkeepingBuddy01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -688,7 +758,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LZNXN6LWQ;
 				INFOPLIST_FILE = BookkeepingBuddy01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = csc436.BookkeepingBuddy01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
