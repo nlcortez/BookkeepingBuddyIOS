@@ -12,12 +12,18 @@ import Foundation
 class AddMaterialTemplateVC : UITableViewController {
     
     //should be a picker??
-    //@IBOutlet weak var categoryTextField: UITextField!
+    
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var quantity: UITextField!
     @IBOutlet weak var cost: UITextField!
+    @IBOutlet weak var listLabel: UILabel!
+    
+    var category: MaterialCategory?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    @IBAction func unwindToAddTemplate(_ segue: UIStoryboardSegue) {
     }
 }

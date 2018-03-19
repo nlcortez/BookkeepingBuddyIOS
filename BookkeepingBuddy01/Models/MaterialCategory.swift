@@ -9,23 +9,26 @@
 import FirebaseDatabase
 
 class MaterialCategory : Codable {
-    
+    var id: String
     var name: String
     var unit: String
     var description: String { return name }
     
     private enum CodingKeys: String, CodingKey {
+        case id
         case name
         case unit
     }
     
-    init(name: String, unit: String) {
+    init(id: String, name: String, unit: String) {
+        self.id = id
         self.name = name
         self.unit = unit
     }
     
     init(snapshot: DataSnapshot) {
         let snapvalues = snapshot.value as! [String : AnyObject]
+        id = snapvalues["id"] as! String
         name = snapvalues["name"] as! String
         unit = snapvalues["unit"] as! String
     }
@@ -44,6 +47,7 @@ class MaterialCategory : Codable {
     
     func toAnyObject() -> Any {
         return [
+            "id" : id,
             "name" : name,
             "unit" : unit
         ]

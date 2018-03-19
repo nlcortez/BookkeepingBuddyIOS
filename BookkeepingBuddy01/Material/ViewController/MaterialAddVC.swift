@@ -54,12 +54,15 @@ class MaterialAddVC: UIViewController {
         switch tabs.selectedSegmentIndex {
         case 0:
             let key = databaseRef.child("MaterialCategories").childByAutoId().key
-            let cat = MaterialCategory(name: (addMaterialCategoryVC?.name.text)!, unit: (addMaterialCategoryVC?.unit.text)!).toAnyObject()
+            let cat = MaterialCategory(id: key,
+                                       name: (addMaterialCategoryVC?.name.text)!,
+                                       unit: (addMaterialCategoryVC?.unit.text)!).toAnyObject()
             databaseRef.child("MaterialCategories").child(key).setValue(cat)
             break;
         case 1:
             let key = databaseRef.child("MaterialTemplates").childByAutoId().key
-            let template = MaterialTemplate(category: appDelegate.materialCategories["-L7vtpokzedBhsDJUOcP"]!,
+            let template = MaterialTemplate(id: key,
+                                            category: (addMaterialTemplateVC?.category)!,
                                             name: (addMaterialTemplateVC?.name.text)!,
                                             measured_quantity: (addMaterialTemplateVC!.quantity.text! as NSString).integerValue,
                                             cost: (addMaterialTemplateVC!.cost.text! as NSString).doubleValue).toAnyObject()

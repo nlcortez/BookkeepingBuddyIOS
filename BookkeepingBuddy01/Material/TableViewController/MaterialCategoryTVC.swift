@@ -58,6 +58,16 @@ class MaterialCategoryTVC : UITableViewController {
         return (cell)!
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let destination = segue.destination
+        if (segue.identifier == "unwindToAddTemplate") {
+            let destVC = destination as? AddMaterialTemplateVC
+            let category = [MaterialCategory](appDelegate.materialCategories.values)[(self.tableView.indexPathForSelectedRow?.row)!]
+            destVC?.category = category
+            destVC?.listLabel.text = category.name
+        }
+        
+    }
 }
 

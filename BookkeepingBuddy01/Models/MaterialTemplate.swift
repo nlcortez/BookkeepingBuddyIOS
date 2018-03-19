@@ -6,23 +6,28 @@
 //  Copyright © 2018 Natasha Cortez. All rights reserved.
 //
 
+import UIKit
+import Foundation
 import FirebaseDatabase
 
 class MaterialTemplate : Codable {
     
+    var id: String
     var category: MaterialCategory
     var name: String
     var measured_quantity: Int
     var cost: Double
     
     private enum CodingKeys: String, CodingKey {
+        case id
         case category
         case name
         case measured_quantity
         case cost
     }
     
-    init(category: MaterialCategory, name: String, measured_quantity: Int, cost: Double) {
+    init(id: String, category: MaterialCategory, name: String, measured_quantity: Int, cost: Double) {
+        self.id = id
         self.category = category
         self.name = name
         self.measured_quantity = measured_quantity
@@ -31,17 +36,10 @@ class MaterialTemplate : Codable {
     
     init(snapshot: DataSnapshot) {
         let snapvalues = snapshot.value as! [String : AnyObject]
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
         
-        let databaseRef : DatabaseReference = Database.database().reference()
-        var newCategory : MaterialCategory? = MaterialCategory(name: snapvalues["category"] as! String, unit:"")
-        let query = databaseRef.queryOrdered(byChild: "MaterialCategories").queryEqual(toValue: snapvalues["category"] as! String)
-        query.observeSingleEvent(of: .value) { snapshot in
-            for item in snapshot.children {
-                newCategory = MaterialCategory(snapshot: item as! DataSnapshot)
-            }
-        }
-        newCategory = MaterialCategory(name: snapvalues["category"] as! String, unit:"")
-        category = newCategory!
+        id = snapvalues["id"] as! String
+        category = appDelegate.materialCategories[snapvalues["categoryId"] as! String]!
         name = snapvalues["name"] as! String
         measured_quantity = snapvalues["measured_quantity"] as! Int
         cost = snapvalues["cost"] as! Double
@@ -61,7 +59,8 @@ class MaterialTemplate : Codable {
     
     func toAnyObject() -> Any {
         return [
-            "category" : category.name,
+            "id" : id,
+            "categoryId" : category.id,
             "name" : name,
             "measured_quantity" : measured_quantity,
             "cost" : cost
